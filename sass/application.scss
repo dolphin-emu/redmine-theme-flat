@@ -57,6 +57,9 @@ code {
     a {
       font-weight: normal;
       line-height: 2.5;
+      &:hover {
+        color: lighten($hotpink, 25%);
+      }
     }
   }
   #loggedas {

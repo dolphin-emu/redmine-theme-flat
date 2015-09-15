@@ -565,6 +565,9 @@ code {
   font-weight: normal;
   line-height: 2.5;
 }
+#top-menu li a:hover {
+  color: #97ceff;
+}
 #top-menu #loggedas {
   line-height: 2.5;
 }
