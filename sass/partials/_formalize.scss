@@ -102,11 +102,11 @@ input[type="button"] {
   text-decoration: none;
   vertical-align: top;
   width: auto;
-  @include transition(all .5s);
+  @include transition(all .4s);
   &:hover,
   &:active {
-    background: #fff;
-    color: $hotpink;
+    background: lighten($hotpink, 12%);
+    //color: $hotpink;
   }
   // IE7
   *padding-top: 2px;
