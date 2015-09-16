@@ -576,16 +576,19 @@ code {
   height: auto;
   min-height: 4em;
   background: #202020;
-  padding: 7px 17px 0 17px;
+  padding: 12px 17px 0 17px;
 }
 #header > h1 {
   display: inline-block;
   background: url("../images/logo.svg") no-repeat 5px 5px;
   background-size: 72px 40px;
   padding-left: 89px;
-  margin: 0 20px 9px 9px;
+  margin: 0 20px 14px 9px;
 }
 
+#quick-search {
+  margin-top: 10px;
+}
 #quick-search select {
   padding: 5px 15px 5px 5px;
   height: auto;
@@ -631,6 +634,9 @@ code {
 #main-menu li a.selected {
   font-weight: 400;
   background: #fff;
+}
+#main-menu li.float {
+  float: right;
 }
 
 #main {

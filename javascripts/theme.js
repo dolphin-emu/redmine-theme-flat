@@ -13,6 +13,9 @@
     $('#update fieldset.tabular legend').click(function() {
       $(this).closest('fieldset').toggleClass('show-children');
     });
+
+    // add fork us on github link
+    var menu = $("#main-menu>ul").append("<li class='float'><a href='https://github.com/dolphin-emu/dolphin'>Github Project</a></li>");
   });
 
 })(jQuery);
