@@ -103,10 +103,10 @@ input[type="button"] {
   text-decoration: none;
   vertical-align: top;
   width: auto;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   *padding-top: 2px;
   *padding-bottom: 0;
 }
@@ -119,8 +119,7 @@ input[type="submit"]:hover,
 input[type="submit"]:active,
 input[type="button"]:hover,
 input[type="button"]:active {
-  background: #fff;
-  color: #1792FF;
+  background: #54afff;
 }
 button::-moz-focus-inner,
 a.button::-moz-focus-inner,
